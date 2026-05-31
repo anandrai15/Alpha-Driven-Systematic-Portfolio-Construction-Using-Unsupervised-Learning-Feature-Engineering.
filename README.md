@@ -1,4 +1,4 @@
-# Alpha Driven Unsupervised Momentum Portfolio with Factor Analysis and Rolling Sharpe Optimization
+# Alpha Driven Systematic Momentum Portfolio Construction & Management Using Unsupervised Learning with Factor Analysis and Rolling Sharpe Optimization
 
 A quantitative research project that combines **technical feature engineering**, **Fama-French factor modeling**, **unsupervised clustering**, and **rolling portfolio optimization** to build a monthly rotating equity strategy. The model selects a momentum-oriented stock cluster, estimates risk and return from a rolling lookback window, and allocates capital using a **long-only maximum Sharpe ratio** framework.
 
