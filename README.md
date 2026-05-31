@@ -74,7 +74,12 @@ The project uses:
 
 The data is transformed into a MultiIndex structure to support grouped feature engineering, rolling regression, and monthly rebalancing.
 
----
+The dataset is not included due to size constraints.
+Users should provide:
+- top_100_stocks_daily.csv
+- F-F_Research_Data_Factors_weekly.csv
+and place them in the `data/` directory.
+
 
 ## Methodology
 
