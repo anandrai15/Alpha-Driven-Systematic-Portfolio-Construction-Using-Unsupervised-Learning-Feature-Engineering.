@@ -5,25 +5,29 @@ from pathlib import Path
 # ----------------------------
 # CONFIG
 # ----------------------------
-TOP_100_TICKERS = [
-    "AAPL","MSFT","NVDA","AMZN","GOOGL","GOOG","META","TSLA","BRK-B","UNH",
-    "XOM","JNJ","JPM","V","PG","MA","HD","AVGO","CVX","LLY",
-    "MRK","COST","ABBV","PEP","KO","ADBE","WMT","CRM","BAC","NFLX",
-    "ACN","TMO","ORCL","MCD","DHR","LIN","CSCO","AMD","INTU","TXN",
-    "QCOM","IBM","PM","AMAT","GE","CAT","NOW","GS","SPGI","ISRG",
-    "BLK","INTC","AXP","LOW","BKNG","MS","PLD","ELV","ADP","VRTX",
-    "LMT","MDLZ","SCHW","C","GILD","ADI","MMC","MO","CI","SYK",
-    "CB","ZTS","TGT","REGN","PNC","DUK","SO","AON","BDX","NSC",
-    "ITW","EMR","USB","CL","EQIX","APD","SHW","EOG","HUM","ICE"
+NASDAQ_100_TICKERS = [
+    "ADBE", "AMD", "ABNB", "GOOGL", "GOOG", "AMZN", "AEP", "AMGN",
+    "ADI", "ANSS", "AAPL", "AMAT", "ARM", "ASML", "AZN", "TEAM",
+    "ADSK", "ADP", "AXON", "BKR", "BIIB", "BKNG", "AVGO", "CDNS",
+    "CDW", "CHTR", "CTAS", "CSCO", "CCEP", "CTSH", "CMCSA", "CEG",
+    "CPRT", "CSGP", "COST", "CRWD", "CSX", "DDOG", "DXCM", "FANG",
+    "DASH", "EA", "EXC", "FAST", "FTNT", "GEHC", "GILD", "GFS",
+    "HON", "IDXX", "INTC", "INTU", "ISRG", "KDP", "KLAC", "KHC",
+    "LRCX", "LIN", "LULU", "MAR", "MRVL", "MELI", "META", "MCHP",
+    "MU", "MSFT", "MSTR", "MDLZ", "MDB", "MNST", "NFLX", "NVDA",
+    "NXPI", "ORLY", "ODFL", "ON", "PCAR", "PANW", "PAYX", "PYPL",
+    "PDD", "PEP", "QCOM", "REGN", "ROP", "ROST", "SBUX", "SMCI",
+    "SNPS", "TTWO", "TMUS", "TSLA", "TXN", "TTD", "VRSK", "VRTX",
+    "WBD", "WDAY", "XEL", "ZS"
 ]
 
 START_DATE = "2010-01-01"
-END_DATE = "2024-06-30"
+END_DATE = "2026-08-30"
 
 DATA_DIR = Path("data")
 DATA_DIR.mkdir(exist_ok=True)
 
-OUT_FILE = DATA_DIR / "top_100_stocks_daily.csv"
+OUT_FILE = DATA_DIR / "NASDAQ_100_TICKERS.csv"
 
 # ----------------------------
 # DOWNLOAD
